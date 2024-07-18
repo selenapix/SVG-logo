@@ -16,7 +16,7 @@ const shapeClasses = {
 
 // Creating the questions that will be prompted in Node for user input
 const questions = [
-  {type: "maxlengthInput", name: "Text", message: "Please enter text for the logo (No more than 3 characters)", maxLength:3},
+  {type: "inputnode ", name: "Text", message: "Please enter text for the logo (No more than 3 characters)", maxLength:3},
   {type: "input", name: "Textcolor", message: "What color would you like your text to be?"},
   {type:"list", name:"Shape", message: "What shape would you like your SVG logo to be?", choices:['Square', 'Circle', 'Triangle']},
   {type:"input", name:"SVGcolor", message: "What color would you like your SVG logo to be?"}
